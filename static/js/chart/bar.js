@@ -131,11 +131,11 @@ const SDG_MAP = {
   "sdgs-20": "地",
   "sdgs-21": "產",
   "sdgs-22": "景",
-  "sdgs-23": "德",
-  "sdgs-24": "智",
-  "sdgs-25": "體",
-  "sdgs-26": "群",
-  "sdgs-27": "美",
+  "sdgs-23": "零淨碳排",
+  "sdgs-24": "零貧窮",
+  "sdgs-25": "零失業",
+/*   "sdgs-26": "群",
+  "sdgs-27": "美", */
 };
 
 export const getMappedSdgData = (data) => {

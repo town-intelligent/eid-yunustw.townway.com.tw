@@ -3,7 +3,7 @@ export const get_sdgs_indexes = (task) => {
   const content_parsed = JSON.parse(content);
 
   const sdgs_indexes = [];
-  for (let index = 1; index <= 27; index++) {
+  for (let index = 1; index <= 25; index++) { // 27
     if (content_parsed["sdgs-" + index.toString()] != "1") {
       continue;
     }
